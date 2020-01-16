@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	}
+	
+.navbar {
+		padding: .8rem;
+		background-color: white !important;
+}
+
+
+	
+	.navbar-nav li {
+		padding-right: 20px;
+	}
+
+.navbar-nav li:hover{
+	color: black;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+.mntic-top{
+	color: #151627;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+}
+
+.centreMyMenu {
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fbld {
+	padding: 2pt;
+	color: #2F2FA2;
+	font-size: larger;
+}
+
+.slideimg{
+  height: 100vh;	
+  background:url('img/intro.jpg') no-repeat ; 
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.carousel-inner {
+
+}
+
+.carousel-caption{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+	/* padding: 1rem ;*/
+	border-radius: 0;
+	margin-bottom: 0;
+	background: #f7fbffeb;
+	opacity: 0.9;
+}
+
+
+.fa-tasks ,.fa-project-diagram, .fa-bezier-curve, .fa-address-card {
+	/* color: #e5d426; */
+	color:#ffffff;
+	font-size: 4em;
+	margin: 1rem;
+}
+
+.jumbo-cnt {
+	width: 80%;
+    margin: 0 auto;
+}
+
+.list-experience li {
+	padding-bottom: 10px;
+}
+
+#services{
+	/* width: 75%;
+	margin: 0 auto; */
+	color: white;
+	padding: 1rem;
+  
+}
+
+.content-section {
+	background: url("bgfixed.jpg") ; 
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#services p{
+	/* text-align: left; */
+	    text-shadow: 1px 1px 15px #000;
+		font-size: 1.2rem;
+}
+
+#services .text-center {
+	width: 90%;
+    margin: 0 auto;
+}
+
+#services h3{
+	text-align: center;
+	font-size: 1.8rem;
+    text-shadow: 1px 1px 10px #222;
+    color: #ded6d6;
+}
+
+footer {	
+background-color : #151627;
+padding-top: .5rem;
+}
+
+.socialink {
+	color: white;
+    font-size: 1.3rem;
+    padding-left: .5rem;
+}
+
+.endphrase {
+	position: absolute;
+    right: 10px;
+	top: 10px;
+	font-size: .7rem;
+}
