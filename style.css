@@ -91,6 +91,7 @@ html,body {
 	background-attachment:fixed;
 	background-size: cover;
 	background-position: top;
+	border-bottom: solid 2px white;
 }
 
 .aboutUsImg {
