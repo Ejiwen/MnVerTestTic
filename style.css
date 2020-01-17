@@ -54,6 +54,10 @@ html,body {
   background-attachment: fixed;
 }
 
+.carousel-inner {
+	border-bottom: solid white 2px;
+}
+
 .carousel-caption{
 	position: absolute;
 	left: 50%;
@@ -165,16 +169,19 @@ html,body {
 .found-us {
 	padding: 5rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr, 1fr;
 	column-gap: 2rem;
+	background-color: #32338A;
 }
 
 .cntct-form {
   grid-column: 2;
+  color: #ffffff;
 }	
 
+
 .map-mntic {
-	grid-column: 1;
+	grid-column: 1; 
 }
 
 footer {	
