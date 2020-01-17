@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:300|Droid+Serif');
 
 html,body {
 	height: 100%;
@@ -53,10 +54,6 @@ html,body {
   background-attachment: fixed;
 }
 
-.carousel-inner {
-
-}
-
 .carousel-caption{
 	position: absolute;
 	left: 50%;
@@ -75,14 +72,55 @@ html,body {
 
 .fa-tasks ,.fa-project-diagram, .fa-bezier-curve, .fa-address-card {
 	/* color: #e5d426; */
-	color:#ffffff;
+	color:#F64C72;
 	font-size: 4em;
-	margin: 1rem;
+	width: inherit;
+    text-align: center;
+	
+}
+
+.aboutUsDiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	background: url("img/aboutUSimg.jpeg") no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-position: top;
+}
+
+.aboutUsImg {
+	grid-column: 1fr;
+	grid-row: 1fr;
+}
+
+.aboutUsBlock{
+	grid-column: 1fr;
+	grid-row: 1fr;
+	background: rgba(109, 109, 190, 0.89) !important;
+	padding: 100px 50px 100px 50px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.aboutUsBlock h2 {
+	color: white;
+	text-align: center;
+	font-family: Poppins, sans-serif;
+}
+
+.aboutUsBlock p{
+	color: white;
+	text-align: justify;
+	font-family: Poppins, sans-serif;
 }
 
 .jumbo-cnt {
-	width: 80%;
-    margin: 0 auto;
+	width: 53%;
+	background: rgba(109, 109, 190, 0.89) !important;
+	padding: 100px 50px 100px 50px;
+	border-radius: 0px 20px 20px 0px;
+	color: #ffffff;
+   /* margin: 0 auto; */
 }
 
 .list-experience li {
@@ -92,21 +130,23 @@ html,body {
 #services{
 	/* width: 75%;
 	margin: 0 auto; */
-	color: white;
-	padding: 1rem;
-  
+	/* color: white; */
+	padding: 5rem;
+	/* background: #3A3B8E !important; */
+	background: white;
+	color: rgb(18, 18, 29) ;
 }
 
 .content-section {
 	background: url("img/contentFixedImg.jpg") ; 
   background-size:cover;
-  background-position:center center;
+  background-position: top;
   background-attachment:fixed;
 }
 
 #services p{
 	/* text-align: left; */
-	    text-shadow: 1px 1px 15px #000;
+	    font-family: Poppins,sans-serif;
 		font-size: 1.2rem;
 }
 
@@ -118,8 +158,23 @@ html,body {
 #services h3{
 	text-align: center;
 	font-size: 1.8rem;
-    text-shadow: 1px 1px 10px #222;
-    color: #ded6d6;
+	/* color: #ded6d6; */
+	color:#32338A;
+}
+
+.found-us {
+	padding: 5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2rem;
+}
+
+.cntct-form {
+  grid-column: 2;
+}	
+
+.map-mntic {
+	grid-column: 1;
 }
 
 footer {	
