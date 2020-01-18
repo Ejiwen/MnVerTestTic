@@ -125,7 +125,6 @@ html,body {
 	padding: 100px 50px 100px 50px;
 	border-radius: 0px 20px 20px 0px;
 	color: #ffffff;
-   /* margin: 0 auto; */
 }
 
 .list-experience li {
@@ -133,11 +132,7 @@ html,body {
 }
 
 #services{
-	/* width: 75%;
-	margin: 0 auto; */
-	/* color: white; */
 	padding: 5rem;
-	/* background: #3A3B8E !important; */
 	background: white;
 	color: rgb(18, 18, 29) ;
 }
